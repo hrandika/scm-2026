@@ -1,0 +1,3 @@
+Name: Samni
+Index: 22CSE0391
+Hello SCM Assignment
