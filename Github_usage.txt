@@ -1,0 +1,1 @@
+GitHub enables developers to collaborate, track changes, and manage code through version control. Key features include repositories, branching for parallel development, pull requests for code review, and issue tracking. With built-in CI/CD, project management tools, and community collaboration features, GitHub streamlines modern software development workflows.
