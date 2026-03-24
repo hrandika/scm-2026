@@ -1,0 +1,38 @@
+What is Git?
+Git is a distributed version control system (DVCS) designed to track changes in source code during software development. Created by Linus Torvalds in 2005, it allows multiple developers to work on a project simultaneously without interfering with each other’s work.
+
+Key features:
+
+Distributed: Every developer has a full copy of the repository, including its entire history. This makes operations fast and allows offline work.
+
+Snapshot-based: Git records the state of your project at different points in time (commits). Each commit is a snapshot of all tracked files.
+
+Branching & merging: Branches let you experiment or develop features in isolation. Merging integrates changes back into the main line of development.
+
+Integrity: Git uses cryptographic hashes (SHA-1) to ensure that data hasn’t been corrupted.
+
+Basic Workflow
+
+Initialize or clone a repository.
+
+git init – start a new local repo.
+
+git clone <url> – copy an existing remote repo.
+
+Make changes in the working directory (edit, add, delete files).
+
+Stage changes that you want to include in the next commit.
+
+git add <file> or git add .
+
+Commit the staged changes with a meaningful message.
+
+git commit -m "Describe what changed"
+
+Push local commits to a remote repository (if collaborating).
+
+git push origin <branch>
+
+Pull changes from the remote to stay up‑to‑date.
+
+git pull origin <branch> (which does fetch + merge)
