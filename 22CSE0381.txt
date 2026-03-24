@@ -1,0 +1,13 @@
+GitHub is a popular web-based platform used by developers to store, manage, and collaborate on code. It is built around the concept of version control using Git, a system that tracks changes in files so multiple people can work on a project efficiently.
+
+GitHub allows users to create repositories (repos), which are folders that contain project files and their revision history. Developers can upload their code, update it over time, and keep track of every change made. This helps in maintaining transparency and preventing loss of work.
+
+One of GitHub’s key features is collaboration. Multiple developers can work on the same project from different locations. They can create branches to experiment with new features without affecting the main project, and later merge those changes using pull requests. Pull requests also allow team members to review code, suggest improvements, and discuss modifications before they are officially added.
+
+GitHub also supports issue tracking, where users can report bugs, request features, or manage tasks related to a project. This makes it easier to organize work and improve project quality.
+
+Another important feature is GitHub Actions, which allows automation of workflows such as testing code, building applications, and deploying projects. This helps developers save time and reduce errors.
+
+In addition to coding, GitHub serves as a social platform for developers. Users can follow others, contribute to open-source projects, and showcase their work to potential employers.
+
+Overall, GitHub is an essential tool in modern software development, widely used by individuals, teams, and organizations to collaborate, manage code, and build innovative software efficiently.
