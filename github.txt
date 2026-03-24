@@ -1,0 +1,145 @@
+Working on software projects in a team is very different from working alone. When I first started working with Git and GitHub in group projects, I struggled with managing branches, merging code, and avoiding conflicts. So, in this article, I’ll share simple and beginner-friendly Git commands that students can use while collaborating in teams.
+
+Prerequisites
+Before you start, make sure you have:
+
+A GitHub account
+VS Code installed
+Git installed on your device
+The Git extension enabled in VS Code
+1. Uploading a Local Project to Github
+Step 1 — Create a Remote Repository
+
+Go to GitHub → Create a new repository
+
+Press enter or click to view image in full size
+
+Step 2 — Initialize Git inside your project folder
+
+git init                    // start tracking a folder with Git
+
+Step 3 — Stage your files
+
+git add .                  
+or add specific files:
+
+git add <filename>
+Step 4 — Commit your changes
+
+git commit -m "First commit"
+
+Step 5 — Rename your current branch to main
+
+git branch -M main
+Step 6 — Connect your local repo to GitHub
+
+git remote add origin https://github.com/<username>/<reponame>.git
+Press enter or click to view image in full size
+
+Step 7 — Push your code
+
+git push -u origin main
+Press enter or click to view image in full size
+
+✅ Your project is now on GitHub
+
+2. Working With Branches in a Team
+When working in teams, never code directly in the mainbranch. Instead, create your own branch.
+
+Create a new branch:
+
+git checkout -b dev                      // creates a new branch and switches to it immediately
+
+Make your changes, then commit and push:
+
+git add .
+git commit -m "Updated feature"
+
+git push -u origin dev
+Press enter or click to view image in full size
+
+3. Creating a Pull Request (PR)
+A Pull Request is how we propose changes before merging them into the main project.
+
+It allows teammates to:
+
+Review code
+Suggest improvements
+Prevent mistakes from breaking the project
+Pull Requests exist so that work is reviewed before merging — not just pushed directly. This is the key to clean and safe collaboration.
+
+Subscribe to the Medium newsletter
+How to create a Pull Request
+
+Go to your GitHub repository
+Click Pull Request → New Pull Request
+Set:
+Base branch: main(main project)
+Compare branch: dev(your changes)
+4. Click Create Pull Request
+
+5. After review → Click Merge Pull Request
+
+
+Now update your local main branch:
+
+git checkout main
+git pull origin main
+Press enter or click to view image in full size
+
+4. When Another Team Member Clones the Repo
+Step 1 — Clone the repo
+
+git clone <repo-url>
+Press enter or click to view image in full size
+
+Step 2 — Enter the project
+
+cd your-project
+Press enter or click to view image in full size
+
+Step 3 — Switch to the working branch
+
+git checkout dev
+After making changes:
+
+git add .
+git commit -m "My update"
+Press enter or click to view image in full size
+
+git push -u origin dev
+Press enter or click to view image in full size
+
+Then a Pull Request is created again to merge dev → main.
+
+
+5. Keeping Your Branch Updated with Main
+Press enter or click to view image in full size
+
+When someone else’s work is merged into main, you need to update your own branch.
+
+Step 1 — Switch to main
+
+git checkout main
+Step 2 — Pull latest updates
+
+git pull origin main
+Press enter or click to view image in full size
+
+Step 3 — Switch back to dev
+
+git checkout dev
+Step 4 — Merge main into dev
+
+git merge main
+
+Your dev branch now has the newest code.
+
+Press enter or click to view image in full size
+
+Final Tips for Team Git Usage
+
+Always pull before starting work (git pull)
+Use meaningful commit messages
+One feature = one branch (keep things clean)
+Use Pull Request so everyone reviews changes
