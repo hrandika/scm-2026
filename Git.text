@@ -1,0 +1,49 @@
+🔹 What is Linux?
+
+Linux is an open-source operating system used to run computers, servers, and devices.
+It is similar to Windows and macOS, but it is free and highly customizable.
+
+Linux is widely used in:
+
+Servers
+
+Programming
+
+Cybersecurity
+
+Cloud computing
+
+Embedded systems
+
+Android phones
+
+🔹 Basic Linux Commands
+List files
+ls
+
+Change directory
+cd foldername
+
+Create folder
+mkdir name
+
+Create file
+touch file.txt
+
+Remove file
+rm file.txt
+
+Remove folder
+rmdir folder
+
+Show current path
+pwd
+
+Copy file
+cp file1 file2
+
+Move file
+mv file1 file2
+
+Clear screen
+clear
