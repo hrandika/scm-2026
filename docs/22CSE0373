@@ -1,0 +1,68 @@
+ Git & GitHub Note
+ What is Git?
+Git is a version control system
+It helps you track changes in your code
+
+ Simple:
+
+Save versions of your project
+Go back to old versions anytime
+
+ Sinhala:
+
+Git කියන්නේ code වෙනස්කම් track කරන system එකක්
+ What is GitHub?
+GitHub is a website to store Git projects online
+It is like cloud storage for code
+You can:
+
+Save your project online
+Share with others
+Work as a team
+
+
+ Difference Between Git and GitHub
+Git	GitHub
+Software (installed in PC)	Website
+Works offline	Works online
+Tracks changes	Stores & shares code
+ Basic Git Commands
+1. Initialize project
+git init
+
+ Start a Git project
+
+2. Add files
+git add .
+
+ Add files to staging
+
+3. Commit changes
+git commit -m "message"
+
+ Save changes
+
+4. Connect to GitHub
+git remote add origin <repo link>
+5. Push to GitHub
+git push -u origin main
+
+ Upload code to GitHub
+
+6. Clone project
+git clone <repo link>
+
+ Download project
+
+ Pull Request (Important 🔥)
+
+ Used when working with others
+
+Steps:
+
+Fork repository
+Clone to your PC
+Make changes
+Push to your repo
+Create Pull Request
+
