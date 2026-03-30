@@ -1,0 +1,24 @@
+GitHub is a web-based platform used for storing, sharing, and managing code. It’s built around a tool called Git, which is a version control system.
+
+Here’s a simple way to understand it:
+
+🔹 What GitHub is
+GitHub is like an online workspace for developers.
+It lets you save your code, track changes, and work with others on projects.
+🔹 What Git is (important!)
+Git is the system that keeps track of changes in your code.
+It remembers every version, so you can go back if something breaks.
+🔹 Key features of GitHub
+Repositories (Repos)
+A project folder that contains your code and files.
+Example: a website, app, or program.
+Version Control
+Every change you make is saved.
+You can compare versions or restore old ones.
+Collaboration
+Multiple people can work on the same project.
+Developers can suggest changes using pull requests.
+Branches
+You can create separate versions of your project to test new ideas without breaking the main code.
+Open Source
+Many projects are public, so anyone can view or contribute.
