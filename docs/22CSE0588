@@ -1,0 +1,133 @@
+Git and GitHub – Study Note
+ 1. What is Git?
+
+**Git** is a **distributed version control system** used to track changes in source code during software development.
+
+Key Features:
+
+* Maintains a complete history of changes
+* Supports multiple developers working simultaneously
+* Allows reverting to previous versions
+* Works offline without internet access
+
+### Example:
+
+If a developer introduces an error, Git allows restoring the project to a previously stable version.
+
+---
+
+## 🔹 2. What is GitHub?
+
+**GitHub** is a **cloud-based hosting platform** that stores Git repositories and enables collaboration among developers.
+
+### Key Features:
+
+* Online storage of repositories
+* Team collaboration tools
+* Pull requests for code review
+* Issue tracking and project management
+
+### Example:
+
+Developers can upload their projects to GitHub and collaborate with team members from different locations.
+
+---
+
+## 🔹 3. Difference Between Git and GitHub
+
+| Git                       | GitHub                         |
+| ------------------------- | ------------------------------ |
+| Version control system    | Cloud-based hosting platform   |
+| Operates locally          | Operates online                |
+| Does not require internet | Requires internet              |
+| Tracks changes in code    | Stores and shares repositories |
+
+---
+
+## 🔹 4. Basic Git Commands
+
+### Repository Setup:
+
+* `git init` → Initialize a new repository
+* `git clone <url>` → Copy an existing repository
+
+### Tracking Changes:
+
+* `git status` → Check current status
+* `git add .` → Stage changes
+* `git commit -m "message"` → Save changes
+
+### Remote Operations:
+
+* `git push` → Upload changes to GitHub
+* `git pull` → Retrieve updates from GitHub
+
+---
+
+## 🔹 5. Git Workflow
+
+The basic workflow in Git follows these steps:
+
+1. Create or clone a repository
+2. Modify files
+3. Stage changes (`git add`)
+4. Commit changes (`git commit`)
+5. Push changes to GitHub (`git push`)
+
+**Simple Flow:**
+Edit → Add → Commit → Push
+
+---
+
+## 🔹 6. Branching in Git
+
+Branching allows developers to work on separate features without affecting the main project.
+
+### Commands:
+
+* `git branch` → List branches
+* `git branch <name>` → Create a new branch
+* `git checkout <name>` → Switch to a branch
+
+### Example:
+
+A new feature can be developed in a separate branch and later merged into the main branch.
+
+---
+
+## 🔹 7. Pull Requests (PR)
+
+A **pull request** is a process used to merge changes from one branch into another in GitHub.
+
+### Steps:
+
+1. Push branch to GitHub
+2. Create a pull request
+3. Review changes
+4. Merge into the main branch
+
+---
+
+## 🔹 8. Advantages of Git and GitHub
+
+* Efficient team collaboration
+* Secure backup of code
+* Complete version history
+* Supports large-scale projects
+
+---
+
+## 🔹 9. Real-World Applications
+
+* Software development teams
+* Open-source projects
+* Academic and group projects
+
+---
+
+## 🔹 10. Summary
+
+* **Git** is used to track and manage code changes
+* **GitHub** is used to store and share code online
+* Together, they improve collaboration and version control in software development
+
